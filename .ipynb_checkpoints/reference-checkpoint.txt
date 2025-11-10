@@ -1,0 +1,45 @@
+reference.txt
+
+This file documents the modifications and references used in the Neural Network Lab (Task 2).
+
+---------------------------------------
+Files Modified
+---------------------------------------
+
+1. layers.py
+   • Implemented forward and backward passes for:
+       - FullyConnectedLayer
+       - ConvolutionLayer
+       - AvgPoolingLayer
+   • Minor code cleanup and variable naming consistency.
+   • Implementation logic discussed and reviewed with ChatGPT (OpenAI).
+
+2. tasks.py
+   • Completed Task 2.1 to Task 2.4 by defining NeuralNetwork architectures
+     with tuned hyperparameters.
+   • Architectures and parameters verified using ChatGPT suggestions and
+     adjusted through testing.
+   • Added comments for clarity and reproducibility.
+
+3. nn.py
+   • Minor modifications in train() and saveModel() functions to fix
+     model saving using allow_pickle=True.
+   • Added print statements for debugging and validation checks.
+
+---------------------------------------
+References Used
+---------------------------------------
+1. ChatGPT (OpenAI, 2025): Used for guidance on neural network architecture tuning,
+   hyperparameter selection, and code corrections for layers.py and tasks.py.
+2. Numpy Documentation: https://numpy.org/doc/
+3. Course-provided templates and assignment instructions.
+4. General references for activation functions and backpropagation:
+   - "Deep Learning" by Ian Goodfellow et al.
+   - CS231n Convolutional Neural Networks Notes (Stanford University).
+
+---------------------------------------
+Declaration
+---------------------------------------
+I confirm that all core implementations were written by me,
+and any external assistance (such as ChatGPT explanations or documentation)
+was used only for understanding and debugging purposes.
